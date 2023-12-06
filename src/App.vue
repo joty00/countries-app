@@ -47,7 +47,7 @@ watch([countries, page, filteredCountries], () => {
   );
 });
 
-const changePage = (newPage: Number) => {
+const changePage = (newPage: number) => {
   page.value = newPage;
 };
 </script>
